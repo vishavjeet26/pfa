@@ -1,0 +1,44 @@
+Guidelines to solve the problems -:
+1. Please write unit test cases using pytest.
+2. Write production level code, python project structure, makefile and use flake-8 etc .
+3. Share the github link as solution 
+
+
+
+
+Problem 1
+
+Write method to merge 2 csv files with different column header and write the output to another csv with headers from all the csv's files.
+
+
+import csv
+
+def csv_merge(list_of_csv_file, output_path):
+    # build list with all fieldnames
+	# TODO
+    
+    # write data to output file based on field names
+    # TODO
+        
+if __name__ == '__main__':
+    csv_merge(['class1.csv', 'class2.csv'], 'all_students.csv')
+	
+	
+	
+
+Problem 2 
+
+Write a method to compress all file in a folder with specified extensions and save to output path.
+Please write unit test cases using pytest.
+Write production level code and project structure  
+
+
+import os
+from zipfile import ZipFile
+
+def zip_files(search_directory, selected_extensions, output_path):
+	# TODO
+    
+                    
+if __name__ == '__main__':
+    zip_files('.\\my_stuff', ['.jpg','.txt'], 'my_stuff.zip')

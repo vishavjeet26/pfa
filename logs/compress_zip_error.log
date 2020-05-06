@@ -1,0 +1,5 @@
+2020-05-06 20:20:16,878 : CRITICAL:compress_zipfile.py : 37 : zip_files: Only acceptable .jpg and .txt
+2020-05-06 20:22:44,025 : CRITICAL:zip_files.py : 37 : zip_files: Only acceptable .jpg and .txt
+2020-05-06 20:24:10,513 : CRITICAL:C:\python-test\pfa_task\zip_files.py : 37 : zip_files: Only acceptable .jpg and .txt
+2020-05-06 20:24:11,138 : CRITICAL:C:\python-test\pfa_task\csv_merge.py : 25 : csv_merge: File extension is wrong
+2020-05-06 20:24:11,153 : CRITICAL:C:\python-test\pfa_task\csv_merge.py : 18 : csv_merge: List of CSV files should be two
